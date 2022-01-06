@@ -46,7 +46,7 @@ func (s Switch) Help() {
 		help += name + "\t --help\n"
 	}
 
-	fmt.Printf("Usage of: %s:\n <command> [<args>]\n%s", os.Args[0], help)
+	fmt.Printf("Usage of: %s:\n<command> [<args>]\n%s", os.Args[0], help)
 }
 
 // Commands

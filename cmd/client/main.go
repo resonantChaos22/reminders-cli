@@ -4,8 +4,9 @@ import (
 	// "client"
 	"flag"
 	"fmt"
-	"github.com/resonantChaos22/reminders-cli/client"
 	"os"
+
+	"github.com/resonantChaos22/reminders-cli/client"
 )
 
 var (
